@@ -4,7 +4,7 @@ An energy-efficient CPU scheduling simulator that integrates:
 
 * Dynamic Voltage and Frequency Scaling (DVFS)
 * Thermal-aware scheduling and cooling
-* Machine Learning-based temperature prediction
+* Machine Learning-based temperature prediction(Random forest)
 
 Built using Python and Streamlit for real-time simulation and visualization.
 
@@ -36,6 +36,22 @@ Built using Python and Streamlit for real-time simulation and visualization.
 * Streamlit
 * NumPy, Pandas
 * Scikit-learn
+
+---
+
+## How It Works (Detailed)
+
+This project simulates a thermal-aware CPU scheduler using:
+
+* DVFS (Dynamic Voltage and Frequency Scaling):
+Adjusts CPU frequency based on task utilization to save energy.
+* Thermal Model:
+Temperature increases with power and decreases via cooling and inter-core heat transfer.
+* ML Predictor:
+Uses a Random Forest model to predict future CPU temperature and prevent overheating.
+* Scheduling Algorithms:
+EDF, SJF, Priority, and Round Robin are implemented and compared.
+The system balances performance, energy efficiency, and thermal safety.
 
 ---
 
