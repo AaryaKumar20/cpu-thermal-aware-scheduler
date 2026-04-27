@@ -24,7 +24,7 @@ Built using Python and Streamlit for real-time simulation and visualization.
 
 ## Key Results
 
-* ~25–30% energy reduction compared to baseline
+* ~17-18% energy reduction compared to baseline
 * Controlled CPU temperature under thermal limits
 * Demonstrates trade-off between performance and energy efficiency
 
